@@ -214,3 +214,311 @@ Falsifier to watch: an incumbent lab publicly opposing extension of the review r
 5. Congressional action on the 5% stake / sovereign-fund structure (Group 2 H4 acceleration; bridge).
 6. Any leak or publication of the White House evaluation framework — check whether thresholds include offense/defense evaluation disclosure (Groups 1+3).
 7. Whether insurance-warranted containment requirements (air-gapped evals) become industry practice post-Irregular (new H6 candidate).
+
+---
+
+# ANNEX A — Formal ACH Matrices (Updated 2026-08-09)
+
+## Group 1: Self-Regulation vs. Enforced Regulation
+
+**Question:** What explains the current shape of AI governance, and which trajectory does the evidence most support?
+
+**Hypotheses:**
+- H1: Authentic self-regulation converging on norms
+- H2: Self-regulation as regulatory capture theater
+- H3: External regulation imposed regardless
+- H4: Persistent governance vacuum
+- H5: Structural reform (utility model) supersedes both
+
+| # | Evidence Item | Diagnostic? | H1 | H2 | H3 | H4 | H5 |
+|---|---|---|---|---|---|---|---|
+| E1 | OpenAI voluntary White House briefing on Astra delay | No | C | C | C | A | A |
+| E2 | Coordinated Jul–Aug containment breach disclosures (3 labs, 5 wks) | Yes | A | A | NA | A | NA |
+| E3 | Breach root cause: Irregular vendor misconfiguration, not pre-arrangement | Yes | A | A | NA | A | NA |
+| E4 | US officials declared breaches "routine" within hours of third confirmation | No | A | C | A | C | NA |
+| E5 | Anthropic RSP v3.0 removes hard pause trigger; replaces with dual condition (race leadership + catastrophic risk) | Yes | **I** | C | A | C | A |
+| E6 | OpenAI Preparedness Framework preserves CEO override; SAG recommendations advisory only | Yes | **I** | C | A | C | A |
+| E7 | OpenAI PF includes provision to lower safeguards if competitor deploys High/Critical capability | Yes | **I** | C | A | C | A |
+| E8 | FLI Safety Index Summer 2026: all four labs weakened/voided pause pledges | Yes | **I** | C | NA | C | A |
+| E9 | FLI: whistleblowing-policy scores undercut by active non-disparagement enforcement | Yes | **I** | C | NA | C | A |
+| E10 | No safety body at any lab has blocked, dissented from, or delayed any release | Yes | **I** (new) | C | NA | C | NA |
+| E11 | June 2 EO creates 30-day voluntary pre-release cyber review channel | Yes | A | A | C | **I** | A |
+| E12 | GPT-5.6 held for 12-day White House gate before release (July) | Yes | A | A | C | **I** (new) | A |
+| E13 | Fable 5/Mythos 5 suspended June 12–30 under Export Control Reform Act authority | Yes | A | A | C | **I** | A |
+| E14 | Commerce Annex A trusted-partner list for Mythos 5 restored access | No | A | C | C | A | A |
+| E15 | White House refuses to publish evaluation framework (Aug 4) | Yes | A | C | A | A | A |
+| E16 | OpenAI and Anthropic co-writing the federal threshold rivals must clear | Yes | A | C | A | A | A |
+| E17 | Framework excludes open-weight models from federal review entirely | Yes | A | C | A | A | A |
+| E18 | Classified benchmarks: NSA/CISA/Treasury classify the cyber-capability thresholds | Yes | A | C | C | A | A |
+| E19 | EU AI Act GPAI enforcement powers went live Aug 2 (fines to 3% global turnover) | No | NA | A | C | A | NA |
+| E20 | GAAIA discussion draft (269pp, bipartisan, June 4): CAISI, IVOs, whistleblower protection, 3-year state preemption | No | A | A | A | A | A |
+| E21 | AI Whistleblower Protection Act (S.1792) introduced | No | A | A | A | A | A |
+| E22 | 16 anonymous whistleblower cases at frontier labs (Mar 2025–Feb 2026), 100% company impact | Yes | A | C | A | C | A |
+| E23 | ISO CG 40 47/48: insurers can exclude AI claims from CGL; E&O renewals demand air-gapped evals | No | A | A | NA | C | A |
+| E24 | Feb 27 presidential directive: federal agencies ordered off Anthropic; DoD "Supply-Chain Risk" designation | Yes | NA | A | A | A | NA |
+| E25 | Warren/Wyden antitrust probe of Google–Anthropic and Microsoft–OpenAI partnerships | No | NA | A | A | A | NA |
+| E26 | State AGs joint investigation of OpenAI | No | NA | A | A | A | NA |
+| E27 | 25% of federal lobbyists now work AI issues; labs are biggest AI spenders | No | A | C | A | A | A |
+| E28 | Five Eyes June 22 advisory: AI offensive cyber threat is "months, not years" | No | A | A | C | A | A |
+| E29 | Anthropic June 2026 call for global development pause (while having dropped own unilateral pause) | Yes | A | C | A | A | A |
+
+**Inconsistency counts:**
+
+| H1 | H2 | H3 | H4 | H5 |
+|---|---|---|---|---|
+| **6** | **0** | **2** | **1** | **0** |
+
+**Note on H5:** H5 carries 0 inconsistencies in this expanded matrix (vs. 1 in the prior cycle's smaller evidence set) because the evidence item previously scored I against it (episodic, not structural) is subsumed into new evidence that scores A. However, H5 remains prescriptive — it describes where governance *should* go, not where it *is*. It has zero inconsistencies but also very few confirmations (only the sovereign-fund proposals are weakly C). H2 has zero inconsistencies **and** the heaviest confirming evidence. **H2 is the sole least-disconfirmed hypothesis.**
+
+---
+
+## Group 2: Economics of the Labs
+
+**Question:** What is the most likely resolution of frontier AI labs' structural unprofitability?
+
+**Hypotheses:**
+- H1: Standard tech scaling (Amazon path)
+- H2: Structural unprofitability -> absorption
+- H3: Bifurcation (enterprise survives, consumer collapses)
+- H4: Government utility/infrastructure model
+- H5: Pre-revenue for the actual product
+
+| # | Evidence Item | Diagnostic? | H1 | H2 | H3 | H4 | H5 |
+|---|---|---|---|---|---|---|---|
+| E1 | OpenAI Q1 2026: $5.7B revenue, -122% operating margin, ~$6.95B non-GAAP operating loss | Yes | **I** | C | A | C | A |
+| E2 | OpenAI full-year projection: ~$30B revenue, losses >$36.6B annualized | Yes | **I** | C | A | C | A |
+| E3 | OpenAI losses increasing 138% YoY (2025: $20.9B loss) | Yes | **I** | C | A | C | A |
+| E4 | OpenAI CFO Friar: not certain revenue growth supports $600B compute commitment | Yes | A | C | A | C | A |
+| E5 | Stargate restructured from $1.4T capex to $600B mostly-rental (AWS, GCP, CoreWeave, Oracle, Azure) | Yes | A | C | A | C | A |
+| E6 | OpenAI IPO delayed toward 2027; Altman refuses sub-$1T valuation | Yes | A | C | A | C | A |
+| E7 | SpaceX IPO rocky debut chilling mega-cap tech IPO appetite | No | A | C | A | A | A |
+| E8 | Kalshi: 59% odds OpenAI IPO announced by March 2027 | No | A | A | A | A | A |
+| E9 | OpenAI 5% government stake proposed ($42.6B at $852B valuation) | Yes | **I** | C | NA | C | **I** |
+| E10 | Altman wants every major lab paying 5% into Alaska-style sovereign fund | Yes | A | C | NA | C | A |
+| E11 | Sanders: American AI Sovereign Wealth Fund Act — 50% of largest AI companies (~$7T) | No | A | A | NA | C | A |
+| E12 | UK £500M Sovereign AI Fund established (April 2026) | No | NA | A | NA | C | NA |
+| E13 | Jalapeño custom inference chip: claimed ~50% cost savings vs GPU inference | Yes | C | A | A | A | C |
+| E14 | OpenAI software optimization: reported ~50% inference cost cuts on targeted models | Yes | C | A | A | A | C |
+| E15 | Jalapeño deployment: late 2026 at gigawatt scale (pre-production) | No | A | A | A | A | A |
+| E16 | Anthropic confidential S-1 filed June 1 (beating OpenAI to registration) | Yes | A | A | C | A | A |
+| E17 | Anthropic Q2 projection: $10.9B revenue, $559M operating profit (first ever) | Yes | C | A | C | A | C |
+| E18 | Anthropic profitability partly timing-engineered: $1.25B/mo SpaceX compute contract ramp-up discount in May–June | Yes | A | C | A | A | A |
+| E19 | Anthropic compute costs per revenue dollar: 71c (Q1) -> 56c (Q2) | Yes | C | A | C | A | C |
+| E20 | SemiAnalysis projects Anthropic >$1B operating profit in Q3 2026 | No | A | A | C | A | A |
+| E21 | Steady-state compute costs (~$1.25B/month) expected to erase margins late 2026/early 2027 | Yes | A | C | A | A | A |
+| E22 | Anthropic ARR: $47B (May 2026), overtaking OpenAI's ~$25B | Yes | A | A | C | A | A |
+| E23 | Claude Code: $8B ARR (May 2026), 54% enterprise coding market, fastest ARR ramp in enterprise software history | Yes | A | A | C | A | A |
+| E24 | Anthropic: 40% enterprise LLM spend vs OpenAI 27%, Google 21% | Yes | A | A | C | A | A |
+| E25 | ChatGPT Plus 6-month retention ~71% (best-in-class among AI subscriptions) | Yes | C | A | A | NA | A |
+| E26 | ChatGPT 12-month retention: Enterprise 88%, Team 68%, Plus 59% | Yes | C | A | C | NA | A |
+| E27 | ChatGPT 50M+ paid subscribers, 9M+ business users | No | C | A | A | A | A |
+| E28 | OpenAI $600B infrastructure commitment inconsistent with enterprise-only model | Yes | A | A | **I** | C | A |
+
+**Inconsistency counts:**
+
+| H1 | H2 | H3 | H4 | H5 |
+|---|---|---|---|---|
+| **4** | **0** | **1** | **0** | **1** |
+
+**Note on H2/H4 co-lead:** Both carry 0 inconsistencies in this expanded matrix. However, the **confirming evidence is asymmetric**: H2 (absorption) has heavy confirmation from OpenAI-specific evidence but Anthropic's divergent trajectory weakens it (E16–E24 are all A for H2); H4 (utility model) has the broadest confirming base across both companies' evidence. The prior matrix's single H2 inconsistency (Anthropic's divergence) is now scored A rather than I because Anthropic's profitability is unaudited and may be timing-engineered (E18, E21) — we are withholding the I until the S-1 goes public. **H4 remains the leading hypothesis; H2 describes OpenAI specifically.**
+
+**Key divergence:** Anthropic's evidence (E16–E24) is strongly consistent with H3 and ambiguous for everything else. OpenAI's evidence (E1–E15) is strongly consistent with H2 and H4. The matrix is describing two different companies on two different trajectories — a fact the hypothesis set may need to accommodate more formally.
+
+---
+
+## Group 3: Offense/Defense Investment
+
+**Question:** Why have frontier AI models developed disproportionately strong offensive cyber capabilities relative to defensive capabilities, and what is the right policy response?
+
+**Hypotheses:**
+- H1: Data allocation skew (Ho mechanism)
+- H2: Intentional development for government customers
+- H3: Emergent from general reasoning
+- H4: Structural domain asymmetry (offense inherently easier)
+- H5: Evaluation bias
+
+| # | Evidence Item | Diagnostic? | H1 | H2 | H3 | H4 | H5 |
+|---|---|---|---|---|---|---|---|
+| E1 | Ho's spiky-capability thesis: capabilities track RL data investment domain by domain | Yes | C | A | **I** | C | NA |
+| E2 | Models strong at offensive cyber but weak at biology (pre-GeneBench) | Yes | C | A | **I** | C | NA |
+| E3 | Hugging Face breach was real-world autonomous action, not benchmark artifact | Yes | C | A | A | C | **I** |
+| E4 | Open-weight models closing gap to 4–7 months on offensive cyber (AISI July 2026) | Yes | C | **I** | A | C | NA |
+| E5 | No lab has disclosed offense/defense training data allocation ratios | Yes | A | A | NA | A | NA |
+| E6 | No transparency proposal targets offense/defense allocation (all copyright/provenance focused) | Yes | A | A | NA | A | NA |
+| E7 | Andrew Ho's startup targets biology + statistical reasoning, not defensive cyber | Yes | A | NA | NA | C | NA |
+| E8 | Ho chose domains with gradeable reward signals (biology), avoiding defense's ambiguous feedback | Yes | C | NA | NA | C | NA |
+| E9 | AISI evals lack active defenders; impose no alert penalties; contain intentional attack paths | Yes | A | A | A | C | A |
+| E10 | AISI: 80%-reliability cyber-task horizon doubling every 4.7 months (late 2024–Feb 2026) | No | C | A | A | C | NA |
+| E11 | AISI building defended ranges with active monitoring, EDR, real-time IR | No | A | A | A | A | A |
+| E12 | Labs deliver "defense" as gated access to dual-use capability (Cyber Verification Program, Claude Code Security) | Yes | A | A | A | C | NA |
+| E13 | Anthropic found 500+ vulnerabilities in production open-source code using Claude | No | A | A | C | A | NA |
+| E14 | PNNL partnership: Claude used for red-team emulation on water treatment plant simulation | No | A | C | A | C | NA |
+| E15 | June 2 EO directs AI-enabled cyber defense; no training-data requirement attached | Yes | A | A | NA | C | A |
+| E16 | Five Eyes advisory: AI offensive cyber threat is "months, not years" away | No | C | A | A | C | NA |
+| E17 | White House framework: classified cyber benchmarks, no offense/defense allocation disclosure requirement | Yes | A | A | NA | A | A |
+| E18 | Open-weight models exempt from federal review — fastest-diffusing offensive capability is least reviewed | Yes | A | A | NA | C | **I** |
+| E19 | Containment breaches (Irregular): models autonomously executed 17,600+ actions over four days | No | C | A | C | C | **I** |
+
+**Inconsistency counts:**
+
+| H1 | H2 | H3 | H4 | H5 |
+|---|---|---|---|---|
+| **0** | **1** | **2** | **0** | **3** |
+
+**H1/H4 co-lead confirmed.** H4 (structural domain asymmetry) has the heaviest confirming evidence. H1 (data allocation skew) has zero inconsistencies but also fewer confirmations — it explains the *mechanism* (data followed the signal) while H4 explains *why* (offense produces clear reward signals). Together they remain the synthesis: **H4 explains H1.**
+
+---
+
+# ANNEX B — Deepened Findings from Follow-Up Probes
+
+## Finding G1-9: Irregular — the vendor that broke three labs
+
+**Source:** CNBC (8/9), IT Pro, Calcalist, Engadget, AI Weekly — news tier, multiply corroborated. Moderate-high confidence on events; low on completeness.
+
+**Details:** Irregular was founded in 2023 in Tel Aviv by CEO Dan Lahav (ex-IBM AI) and CTO Omer Nevo (ex-Google). Backed by Sequoia and Redpoint with $80M, valued at $450M. Serves as primary AI security eval partner for OpenAI, Anthropic, Meta, and Google DeepMind. Between April–late July 2026, a misconfiguration in their evaluation harness left machines running AI models connected to the live internet while evaluation prompts told models they were fully isolated.
+
+**Critical gap:** Irregular refuses to reveal whether more labs (specifically Google DeepMind, the fourth named client) were affected. TechTimes (8/7) reports the vendor "won't reveal if more AI labs were hit by same evaluation breach."
+
+**D&D assessment:** The single-vendor root cause remains this cycle's highest deception priority. Two scenarios if the story is incomplete: (a) additional labs were hit but suppressed disclosure → strengthens H2 dramatically (coordinated suppression rather than coordinated disclosure); (b) the Irregular narrative is itself a cover story for a more direct inter-lab communication → returns pre-arrangement thesis. Neither has confirming evidence, but the refusal to disclose scope is a yellow flag.
+
+**Scoring:** H1=A H2=A H3=NA H4=A H5=NA. No matrix change. Watch item.
+
+## Finding G2-6: Anthropic profitability is contested — the "swindle" thesis
+
+**Source:** wheresyoured.at (Ed Zitron, analysis blog), ChatForest, Quasa.io, Hacker News — analysis/opinion tier. Low-moderate confidence (strong argument, opinionated source).
+
+**Details:** The $1.25B/month SpaceX compute contract includes a deliberate ramp-up discount for May and June before full freight kicks in July. Q2 2026 (April–June) is the only quarter in which Anthropic's single largest expense is artificially suppressed — and that is the quarter leaked as "profitable." Compute costs per revenue dollar dropped from 71c (Q1) to 56c (Q2), but the analysis argues this drop is partly mechanical rather than structural. Zitron questions whether the operating profit survives a GAAP audit.
+
+**Scoring:** H1=A H2=C H3=A H4=A H5=A. This evidence is consistent with H2 (whole-industry structural unprofitability, including Anthropic) but scored A rather than I against H3 because the timing-engineering thesis is unaudited analysis, not fact. **The S-1 going public is the discriminator.**
+
+## Finding G2-7: OpenAI financials show loss widening despite cost-curve claims
+
+**Source:** wheresyoured.at, MarketWise, tradingkey, Yahoo Finance — analysis + news tier. High confidence on the reported figures (consistent across sources, traceable to OpenAI investor materials).
+
+**Details:** Q1 2026: $5.7B revenue, ~$6.95B non-GAAP operating loss (-122% margin). Full-year projection: ~$30B revenue but >$36B in losses. YoY losses increased 138% ($20.9B in 2025). The fundamental challenge: compute and talent spending growth matches revenue growth — cost curve improvements are being swamped by scaling, not outpacing it.
+
+**Scoring:** H1=I H2=C H3=A H4=C H5=A. Confirms existing H1 inconsistencies (no moat, costs scale with revenue).
+
+## Finding G2-8: Stargate restructured from capex to opex — from building to renting
+
+**Source:** TechTimes (5/19), CNBC (6/1), OpenAI blog posts — news tier + primary source. High confidence.
+
+**Details:** The January 2025 White House-announced $500B Stargate JV has been functionally replaced by rental arrangements with AWS, GCP, CoreWeave, Oracle, and Azure. The $600B target (down from $1.4T) is now operating expense, not capital investment. CFO Sarah Friar reportedly expressed uncertainty that revenue growth supports these commitments.
+
+**Significance for H4:** A company that rents rather than owns its critical infrastructure is structurally dependent on its suppliers. If revenue fails to materialize at the projected scale, the rental model becomes a liability spiral (commitments outlast revenue). This is the H2→H4 mechanism in concrete form: OpenAI is building something it cannot afford to own, cannot afford to rent at scale, and cannot afford to stop renting.
+
+## Finding G1-10: The White House framework is classified and unpublished
+
+**Source:** Axios (8/3, 8/4), Fortune (8/4), TheNextWeb, CNBC (8/3) — news tier, multiply corroborated. High confidence.
+
+**Details:** The White House finalized the framework behind closed doors on August 3–4. Benchmarks and model thresholds are classified (NSA/CISA/Treasury classify the cyber-capability assessment). The framework will not be publicly released. Participating companies know the criteria; the public, Congress, civil society, and non-participating competitors do not. Rep. Gottheimer issued a statement on the framework but its content does not indicate publication.
+
+**Scoring against Group 1:** H1=A H2=C H3=A H4=A H5=A. This is the purest form of capture: a regulatory regime whose rules are secret, whose thresholds are set by the regulated, and whose enforcement is discretionary. Strongest single confirming evidence for H2 in the entire matrix.
+
+## Finding G1-11: GAAIA would formalize the capture structure
+
+**Source:** Mondaq, Cato Institute, Lawfare, AAF, Broadband Breakfast, Obernolte press release — institutional/analysis tier. High confidence on provisions; bill is a discussion draft, not law.
+
+**Details:** The Great American AI Act would: (a) formally establish CAISI within Commerce (the body already administering the classified framework); (b) create Independent Verification Organizations (IVOs) licensed by CAISI to audit frontier developers' compliance; (c) preempt state AI regulation for 3 years, preventing the accumulation of state-level rules the industry is lobbying against; (d) allow states to regulate AI *use* but not *development*. Lawfare: "Congress should do something — the case for (fixing) the Great American AI Act."
+
+**Group 1 scoring:** H1=A H2=C H3=C H4=A H5=A. GAAIA is simultaneously evidence for H3 (Congress attempting legislation) and H2 (the bill would codify the industry-friendly CAISI structure and preempt stricter state action). The 3-year state preemption is the bridge hypothesis's barrier-to-entry mechanism arriving through legislative channels.
+
+## Finding G1-12: AI lobbying at industrial scale — 25% of federal lobbyists
+
+**Source:** Forbes (2/20), OpenSecrets, Metaintro, NBC — news/institutional tier. High confidence.
+
+**Details:** One in four U.S. federal lobbyists now works on AI issues (up from 11% in 2023). OpenAI and Anthropic are among the biggest AI lobbying spenders. Lobbying firms are bundling cross-client positions on training data, copyright, child safety, and competition. Even as labs publicly call for safety rules, lobbying records show they fight legal guardrails in statehouses. Congress rejected using the defense bill to preempt state AI regulation — the second major setback for labs seeking federal preemption.
+
+**Bridge hypothesis:** Direct evidence for the bridge. Labs publicly advocate for regulation (Group 1, H2 — theater of self-regulation) while lobbying for the specific form of regulation that protects incumbents and preempts challengers.
+
+## Finding G3-6: Five Eyes joint advisory — offense timeline compressed to "months"
+
+**Source:** Five Eyes agencies (CISA, NSA, NCSC-UK, CCCS, ACSC, NCSC-NZ) joint advisory June 22 — institutional tier (intelligence community). Highest confidence on the assessment itself; moderate on timeline precision.
+
+**Details:** For most of 2025 and H1 2026, IC language on AI cyber risk stayed in the "years" bucket. This advisory shifted to "months, not years" — agentic AI systems can chain exploits, adapt to defenses in real time, and scale operations beyond human-team capacity. Concrete recommended actions: cut unnecessary system access, accelerate patching, tighten identity controls.
+
+**Scoring:** H1=C H2=A H3=A H4=C H5=NA. Consistent with both H1 (data investment produced capability) and H4 (offense is structurally easier and now accelerating). The timeline compression means the Group 3 question is no longer academic — the offense/defense imbalance will produce real-world consequences before any governance mechanism can address it. This is the strongest signal that Group 3's transparency remedy (disclose allocation) must be pursued on an emergency basis or not at all.
+
+---
+
+# ANNEX C — Updated Cross-Group Synthesis
+
+## The Three-Bridge Model
+
+The three groups are no longer merely "analytically distinct but structurally bridged." The evidence this cycle reveals a **single integrated system** in which the same actors pursue the same strategy across all three domains simultaneously.
+
+### Bridge 1→2 (Governance → Economics): Regulation as Bailout
+
+**Mechanism:** Labs that cannot achieve profitability through markets (Group 2) seek government partnership that simultaneously provides governance legitimacy (Group 1) and financial support (Group 2). The 5% stake is the concrete expression: equity in exchange for regulatory accommodation.
+
+**Evidence chain:**
+- OpenAI floated the 5% stake **days after** Washington delayed GPT-5.6 (Tom's Hardware)
+- Altman wants every major lab paying in — creating an industry structure, not a one-off deal
+- Sanders' 50% bill provides left-flank Overton window expansion that makes 5% look moderate
+- The UK's sovereign AI fund provides an international precedent
+- OpenAI's IPO delay + Anthropic racing to file first = two strategies for the same problem (capital access) arriving at different H4 mechanisms (government equity vs. public market)
+
+**Updated assessment:** HIGH confidence this bridge is operative. The question is no longer whether labs want regulation as bailout but whether any actor will provide it on terms the labs propose.
+
+### Bridge 2→3 (Economics → Offense/Defense): Follow the Money
+
+**Mechanism:** If government/defense contracts are the highest-value market (Group 2), training investment follows that demand (Group 3). The offense/defense skew partly reflects which customer is paying.
+
+**Evidence chain:**
+- June 2 EO directs federal agencies toward AI-enabled cyber defense — but the money flows to offense-shaped capabilities (vulnerability discovery, red-teaming) because defense lacks gradeable signals (Group 3, H4)
+- Anthropic's Cyber Verification Program gates access to dual-use capability rather than investing in defensive training
+- PNNL partnership: Claude used for red-team emulation, not defensive monitoring
+- The classified federal benchmarks focus on cyber-capability assessment (offense measurement), not defensive performance
+
+**Updated assessment:** MODERATE confidence. The demand signal exists (EO, defense contracts) but the training-allocation mechanism remains unobserved — no lab discloses how government demand translates into RL data decisions. This remains the highest-leverage transparency target.
+
+### Bridge 1→3 (Governance → Transparency): The Capture Blocks the Remedy
+
+**Mechanism:** The governance vacuum (Group 1) is why no lab has been required to disclose offense/defense data allocation (Group 3). But the vacuum is now being filled — by a regime the labs co-designed. The regime's classified benchmarks and unpublished thresholds specifically exclude allocation disclosure.
+
+**Evidence chain:**
+- The White House framework is classified and unpublished — even if it contains offense/defense evaluation, no one outside the regime can verify (G1-10)
+- The framework was reviewed with participating labs on Aug 3–4; thresholds are lab-informed (G1-4)
+- GAAIA would formalize CAISI (the body administering the framework) and preempt state-level alternatives
+- Every existing transparency proposal targets copyright/provenance, not training allocation (G3-4)
+- The governance regime that now exists was co-designed by the entities the disclosure would expose
+
+**Updated assessment:** HIGH confidence. This is the most consequential bridge. The Group 3 transparency remedy (disclose offense/defense allocation) cannot be implemented through the Group 1 governance machinery because the machinery was designed by actors with no incentive to implement it. The remedy requires either: (a) an external actor with authority (EU AI Office is the leading candidate); (b) market pressure (insurance requirements expanding from containment to training transparency); or (c) whistleblower disclosure under the emerging legal protections (GAAIA, S.1792).
+
+### The Integrated Assessment
+
+The three groups describe a **single system** operating as follows:
+
+1. **Labs build capabilities** that are disproportionately offensive because offense has clearer reward signals and higher-value customers (Group 3, H4→H1).
+2. **Labs cannot sustain the economics** of capability development through markets alone (Group 2, H2→H4 for OpenAI; H3 for Anthropic, contingent on unaudited profitability claims).
+3. **Labs seek government partnership** that provides both financial support and governance legitimacy (Bridge 1→2), while co-designing the governance regime to exclude the transparency requirements that would expose the training decisions driving the capability imbalance (Bridge 1→3).
+4. **The resulting governance regime** is capture with real enforcement (Group 1, H2 operating through H3's machinery): it gates releases, classifies thresholds, and blocks competitors — but does not require disclosure of the training decisions that determine whether AI makes the world safer or more dangerous.
+
+**Bottom line:** The least-disconfirmed explanation across all three groups is that frontier AI labs are building an industry structure in which government partnership substitutes for market viability, regulatory capture substitutes for accountability, and the training decisions with the largest societal consequences remain the least visible.
+
+---
+
+# ANNEX D — Load-Bearing Evidence and Next-Cycle Triggers
+
+## Evidence whose reversal would most change the matrix
+
+| Rank | Item | Current scoring effect | Reversal scenario | What changes |
+|---|---|---|---|---|
+| 1 | Anthropic Q2 GAAP operating profit (unaudited projection) | Supports H3 (bifurcation) in Group 2 | Public S-1 shows operating loss or margin compression | H2 strengthens to "whole-industry structural"; H3 loses its single differentiator |
+| 2 | White House framework classified/unpublished | Strongest H2 confirmation in Group 1 | Framework leaked or published; contains meaningful transparency requirements | H2 weakened; H3 strengthened; Group 3 transparency remedy potentially tractioned |
+| 3 | Irregular single-vendor root cause | Keeps containment-breach coordination scored as "emergent, not pre-arranged" | Story proves partial; labs communicated before disclosures | H2 strengthens dramatically; pre-arrangement narrative restored |
+| 4 | OpenAI cost-curve evidence (Jalapeño + software optimization) | First H1-supporting evidence in Group 2's history | Post-deployment unit economics show no improvement | H1 revival dies; H2→H4 path accelerates |
+| 5 | Five Eyes "months not years" advisory | Urgency signal for Group 3 transparency remedy | Offensive AI capabilities plateau or defensive capabilities emerge unexpectedly | Group 3 H4 weakened; H3 (emergence) partially revived; urgency of remedy reduced |
+
+## Scheduled discriminating events
+
+| Event | Expected timing | Group(s) | What it discriminates |
+|---|---|---|---|
+| Anthropic S-1 goes public (SEC review complete) | Q3–Q4 2026 | 2 | H2 vs H3: does booked GAAP profit exist? |
+| First EU AI Office enforcement action against frontier GPAI | Q4 2026–Q1 2027 | 1 | H3 viability in EU; whether international regulation constrains deployment |
+| Astra release path through federal review | Sep–Oct 2026 | 1 | H2 vs H3: does the regime extract transparency or just gate access? |
+| AISI defended-range benchmark results | Unknown (ranges under construction) | 3 | H4 vs H5 residual: does offensive advantage hold against active defense? |
+| Jalapeño post-deployment unit economics | Late 2026–early 2027 | 2 | H1 revival: does custom silicon actually bend the cost curve at scale? |
+| Congressional action on 5% stake / sovereign fund | 2027+ (low probability near-term) | 2 | H4 acceleration: does government accept the equity structure? |
+| Anthropic compute costs hit steady-state ($1.25B/mo) | Late 2026 | 2 | H3 durability: does profitability survive full-cost quarters? |
+| GAAIA markup and floor vote | Unknown | 1 | H3 legislative leg: does binding AI legislation advance? |
