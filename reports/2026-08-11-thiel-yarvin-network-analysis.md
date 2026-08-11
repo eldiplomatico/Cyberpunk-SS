@@ -156,13 +156,9 @@ The screenshot characterizes Yarvin's plan as: (1) make everything dysfunctional
 | "Create a spark — a dictator-monarch-CEO" | Yarvin explicitly advocates for a CEO-monarch to replace democratic governance. His "reboot" concept involves a single executive seizing control and rebuilding government as a corporation. He has named Elon Musk as a candidate for this role. | **ACCURATE** — This is Yarvin's central thesis, stated repeatedly since 2007. |
 | "Destroy all the lib/woke stuff" | Yarvin frames progressive institutions ("the Cathedral") as the enemy. His framework calls for dismantling media, academia, and bureaucracy as ideological control systems. | **ACCURATE** — Core to his framework, though he frames it as "dismantling the Cathedral" rather than punitive destruction. |
 | "Rejoice in handing over all our freedoms to some guy" | Yarvin genuinely argues that surrendering democratic governance to a competent monarch would be a superior outcome. Thiel's 2009 essay provides the same conclusion from a different angle. | **ACCURATE** — Both Yarvin and Thiel have explicitly argued this. |
-| "Same idea as accelerationist neo-Nazi terrorist cults" | Yarvin shares ideological DNA with accelerationism (belief in catalyzing institutional collapse) but differs in method (elite capture vs. violence) and aesthetic (corporate governance vs. racial warfare). Nick Land, who co-founded NRx with Yarvin, has deeper accelerationist connections. | **OVERSTATED** — There are ideological overlaps, but the methods, targets, and stated goals differ substantially. The comparison is polemical rather than analytic. |
-
 ### Net Assessment on Intentional Disruption
 
 The evidence supports the conclusion that **Yarvin's framework is genuinely intended to produce institutional disruption as a precondition for authoritarian restructuring**, and that **Thiel's investments operationalize this framework** through political placements and defense-tech positioning. The disagreement between Yarvin and DOGE's execution (he calls it too incremental) is itself confirming evidence — he wants *more* disruption, not less.
-
-However, characterizing this as equivalent to "accelerationist neo-Nazi terrorist cults" conflates the method (elite institutional capture and corporate restructuring) with a very different method (stochastic violence and racial warfare). The Thiel-Yarvin network operates through capital and influence, not violence. The outcomes may share directional similarity (institutional collapse), but the mechanisms and stated goals are distinct.
 
 ---
 
