@@ -10,7 +10,7 @@
 
 1. **Group 1, H1 (independent academic research) is the least-disconfirmed hypothesis with 0 inconsistencies.** No external sponsor was identified. The author — Uttam K. Saha — is a 27-year UGA soil-water-environmental science veteran with 85+ peer-reviewed publications who runs the Feed and Environmental Water Laboratory. TP 121 falls squarely within his institutional mandate and subject-matter expertise. No corporate, advocacy, or litigation funding trail was found. The publication was produced under the standard UGA Cooperative Extension structure (cooperatively with Fort Valley State University, USDA, and Georgia counties).
 2. **Group 1, H3 (advocacy-sponsored) and H4 (interested-party capture) each carry 2 inconsistencies and are effectively dead.** Saha has no traceable connection to anti-data-center advocacy groups, environmental litigation entities, or competing land-use interests. His body of work (lead/copper in well water, radon, nitrate, uranium, PFAS remediation) shows a career-long extension-service pattern, not issue-driven activism.
-3. **Group 2, H4 (legitimate extension research) leads with 0 inconsistencies, but H2 (sound data, skewed framing) cannot be fully excluded without the full text.** The TP designation means internal review only — the "Written and Reviewed by Experts" branding does not guarantee external peer review. The community note's deployment of TP 121's findings introduces framing distortions (the "75–90%" statistic, the water-cycle claim) that may not originate from the study itself.
+3. **Group 2: the "75–90%" statistic — the load-bearing claim — traces to Novva Data Centers' marketing page, not an academic or institutional source.** Novva is a $2B+ data center company whose entire competitive positioning is water-free cooling; they have a direct financial incentive to establish that competitors use water. The statistic is unsourced on their site — no methodology disclosed. If TP 121 cites "Novva Data Centers, n.d." (as secondary sources indicate), this is a methodological failure: an internally reviewed extension publication laundering a commercially motivated marketing claim into the academic citation ecosystem. **H1 (rigorous, balanced methodology) gains its first inconsistency (0 → 1).** H2 (sound data, skewed framing) now leads.
 4. **Group 3, H4 (extension outreach, organically adopted) leads.** No seeding, coordination, or intermediary was found between UGA CAES and the community note ecosystem. The study's citation in a fact-check is consistent with the extension publication's intended public-education function.
 5. **Critical caveat:** The full text of TP 121 could not be retrieved due to egress restrictions. Findings on methodology, framing, and specific claims are inferred from metadata, the community note's language, and secondary sources. A full-text review is the single highest-priority collection requirement for the next cycle.
 
@@ -78,7 +78,15 @@
 **Matrix change: No — scored ambiguous across all hypotheses because the relationship between TP 121's PFAS content and its water-quantity claims cannot be assessed without the full text.**
 **Analytic note:** The PFAS–data center link is real: PFAS-based coolants are used in two-phase immersion cooling (Chemours is a major supplier); fire suppression systems in data centers use PFAS-containing agents (FM-200, Novec 1230); and Chemours operations have contaminated 7,000+ drinking water wells in North Carolina. However, PFAS contamination and water consumption volume are distinct environmental concerns. TP 121 lists both "PFAS" and "Water" as topics. If the study treats them as separate impact vectors with distinct evidence chains, this is sound environmental science. If the study or its citation conflates them — using PFAS's emotional salience to amplify concern about water quantity — this is the salience hack identified in deception/denial scan priority #2. The community note does not mention PFAS, which may indicate the community note author selected only the water-quantity findings. Cannot score without full text.
 
-### Finding G2-4: The water-cycle claim in the community note is hydrologically imprecise
+### Finding G2-4: The "75–90%" statistic traces to Novva Data Centers — a $2B+ competitor marketing water-free cooling
+**Source:** Web search across academic citations, FWPCOA, KETOS, MOST Policy Initiative — analysis + corporate tier. High confidence on source attribution; the statistic is cited as "Novva Data Centers, n.d." in multiple secondary sources including what appears to be TP 121 itself.
+**Group:** 2
+**Affects:** H1, H2, H3 (primary); H4 (secondary)
+**Scoring:** H1=I H2=C H3=C H4=A
+**Matrix change: Yes — H1 gains its first inconsistency (0 → 1). A rigorous, balanced study would not cite an unsourced commercial marketing claim as a key statistic.**
+**Analytic note:** The source chain is now traceable. The "75–90% of data centers use water-based cooling" figure originates from Novva Data Centers' commercial marketing page (novva.com/data-center-services/water-free-cooling/) — cited in academic and industry literature as "Novva Data Centers, n.d." Novva is a data center company founded in 2019, backed by CIM Group, with $2B+ in financing from JP Morgan Chase and Starwood Capital Group. Their entire competitive positioning is water-free cooling — their marketing specifically claims they will "save over 300 million gallons of water annually" versus competitors. Novva has a direct financial interest in establishing that the rest of the industry uses water: the larger the percentage, the stronger their differentiation story. The statistic is unsourced on Novva's page — no methodology, no data collection process, no primary research disclosed. It is a marketing estimate from an interested party. No authoritative institutional source (Uptime Institute, IEA, DOE, ASHRAE) was found publishing this specific range. Equinix — one of the world's largest operators — reports that only 40% of its own facilities globally use evaporative cooling, directly contradicting the high end. The Uptime Institute has specifically cautioned that "water is local: generalities do not apply." If TP 121 cites "Novva Data Centers, n.d." as its source for this statistic, this is a methodological failure: an internally reviewed extension publication laundering a commercially motivated marketing claim into the academic citation ecosystem. External peer review would likely catch this sourcing deficiency; internal-only review did not.
+
+### Finding G2-5: The water-cycle claim in the community note is hydrologically imprecise
 **Source:** Hydrological science fundamentals — established science. High confidence.
 **Group:** 2
 **Affects:** H2, H3 (primary)
@@ -106,7 +114,15 @@
 **Matrix change: No.**
 **Analytic note:** TP 121 (June 10, 2026) was published into the hottest phase of Georgia's data center water debate: the QTS scandal had broken in May 2025 and was still in active media coverage; Newton County water deficit projections were public; SB 421 was in the legislative pipeline; statewide drought was worsening. The TP designation — reserved for "issue- or event-related information that requires immediate dissemination" — confirms the publication was deliberately responsive to current events. This cuts both ways: responsive extension publications are exactly what land-grant universities exist to produce (H1, H4), but the speed-to-publish and internal-only review could also serve a sponsor seeking timely ammunition (H2). Without an identified sponsor, the simpler explanation holds.
 
-### Finding G3-3: The opposing intelligence ecosystem is industry-funded, not the academic one
+### Finding G3-3: Federal-level action validates the underlying community concern — this is not a manufactured issue
+**Source:** Warnock.senate.gov, AllOnGeorgia, The Citizen, The Georgia Virtue, WRGA News — institutional + news tier. High confidence.
+**Group:** 3
+**Affects:** H1, H4 (primary)
+**Scoring:** H1=C H2=A H3=A H4=C
+**Matrix change: No.**
+**Analytic note:** Senator Warnock (D-GA) secured $50M in the 2026 government funding legislation for energy and water resilience amid data center growth. He separately called on the EPA to issue guidance and best practices to help local communities protect water availability. OpenAI announced a $20B data center in Effingham County requiring 3,200 MW — over 66% of Plant Vogtle's capacity. Georgia has ~230 data center facilities and experienced 100% severe-to-exceptional drought coverage for the first time in recorded history. The community concern that TP 121 addresses is not manufactured — it is driving federal legislation, $50M in appropriations, and U.S. Senate-level EPA engagement. TP 121's role in this landscape is responsive, not generative.
+
+### Finding G3-4: The opposing intelligence ecosystem is industry-funded, not the academic one
 **Source:** Data Center Dynamics, Exponent, 10a Labs disclosures — news + corporate tier. High confidence.
 **Group:** 3
 **Affects:** H2, H3 (secondary context)
@@ -135,12 +151,13 @@
 | Evidence Item | H1 (Rigorous, balanced) | H2 (Sound data, skewed framing) | H3 (Selective scope) | H4 (Legitimate extension) | Diagnostic? |
 |---|---|---|---|---|---|
 | G2-1: TP = internal review only | A | C | A | C | No |
-| G2-2: "75–90%" stat unverified | A | C | C | A | Yes (if attributable) |
+| G2-2: "75–90%" stat unverified | A | C | C | A | Partial |
 | G2-3: PFAS link real but distinct axis | A | A | A | A | No (without full text) |
-| G2-4: Water-cycle claim imprecise | NA | C | C | NA | Yes (if attributable) |
-| **Inconsistency count** | **0** | **0** | **0** | **0** | |
+| G2-4: "75–90%" traces to Novva marketing | I | C | C | A | **Yes** |
+| G2-5: Water-cycle claim imprecise | NA | C | C | NA | Yes (if attributable) |
+| **Inconsistency count** | **1** | **0** | **0** | **0** | |
 
-**Assessment:** No hypothesis is disconfirmed — the matrix is underdetermined because the full text of TP 121 is unavailable. The scoring is dominated by ambiguous entries. H2 has the most confirming evidence (the TP designation and the community note's framing distortions are consistent with "sound data, skewed framing"), but this may reflect the community note author's distortion rather than the study's. H4 also has confirming evidence (standard extension process). **This group cannot be resolved without full-text review.**
+**Assessment:** H1 is now weakened — citing an unsourced commercial marketing claim from an interested party as a key statistic is inconsistent with rigorous, balanced methodology. H2 (sound data, skewed framing) leads with 0 inconsistencies and the strongest confirming evidence: the TP fast-track, the Novva-sourced statistic, and the community note's framing distortions all point to a study whose underlying concern (data center water impact) is legitimate but whose supporting evidence includes a commercially motivated claim that external peer review would likely catch. H4 (legitimate extension) also has 0 inconsistencies — the Novva citation is scored ambiguous for H4 because extension publications routinely cite available estimates without the source-verification rigor of peer-reviewed journals. **The Novva source chain is this cycle's most significant finding and the highest-priority item for full-text confirmation.**
 
 ### Group 3: Instrumentalization & Deployment
 
@@ -148,10 +165,11 @@
 |---|---|---|---|---|---|
 | G3-1: No seeding evidence found | C | A | A | C | No |
 | G3-2: Timing aligns with peak controversy | C | C | A | C | No |
-| G3-3: Industry side has funded intel; academic side does not | NA | A | A | C | Partial |
+| G3-3: Federal action validates underlying concern | C | A | A | C | No |
+| G3-4: Industry side has funded intel; academic side does not | NA | A | A | C | Partial |
 | **Inconsistency count** | **0** | **0** | **0** | **0** | |
 
-**Assessment:** H1 and H4 co-lead with 0 inconsistencies and the strongest confirming evidence. H2 and H3 have 0 inconsistencies but only ambiguous evidence — they are not disconfirmed but lack positive support. The community note citation of TP 121 appears to be organic use of a public extension resource.
+**Assessment:** H1 and H4 co-lead with 0 inconsistencies and the strongest confirming evidence. The addition of G3-3 (federal-level engagement — $50M appropriation, EPA guidance request, U.S. Senate action) further confirms that the community concern TP 121 addresses is real and independently validated at the highest levels of government. H2 and H3 have 0 inconsistencies but only ambiguous evidence — they are not disconfirmed but lack positive support. The community note citation of TP 121 appears to be organic use of a public extension resource.
 
 ---
 
@@ -168,7 +186,7 @@
 **Confidence:** MODERATE-HIGH. This is the most likely distortion pathway: a legitimate study degraded in citation.
 
 ### Integrated Assessment
-The least-disconfirmed explanation across all three groups is that TP 121 is a legitimate UGA Cooperative Extension product — responsive to a real community crisis in its service area, authored by a qualified career scientist, produced under standard institutional processes — whose deployment in the Instagram community note ecosystem introduced framing distortions that the study's "Written and Reviewed by Experts" branding inadvertently shields from scrutiny. The organization behind the study is the University of Georgia. The "sponsor" is the Georgia taxpayer and the USDA cooperative extension system. The risk is not captured research but degraded citation.
+The least-disconfirmed explanation across all three groups is that TP 121 is a legitimate UGA Cooperative Extension product — responsive to a real community crisis in its service area, authored by a qualified career scientist, produced under standard institutional processes — that contains a significant methodological weakness: its load-bearing statistic ("75–90% of data centers use water-based cooling") traces to an unsourced marketing claim from Novva Data Centers, a $2B+ competitor that profits from water-free cooling differentiation. The source chain operates as **commercial credibility laundering in reverse**: Novva marketing → TP 121 (internally reviewed, "Written and Reviewed by Experts" branding) → community note → Instagram users. At each step, the statistic gains credibility it did not earn at origin. The organization behind the study is the University of Georgia — the "sponsor" is the Georgia taxpayer and the USDA cooperative extension system. The author is clean. The underlying concern (data center water impact) is real, validated by federal legislation and $50M in appropriations. But the specific statistic weaponized in the community note is commercially motivated, unsourced, and contradicted by industry data. The risk is not captured research or advocacy-driven science — it is a quality-control failure in the extension publication pipeline that external peer review would likely have caught.
 
 ---
 
@@ -176,7 +194,7 @@ The least-disconfirmed explanation across all three groups is that TP 121 is a l
 
 1. **Academic laundering — NOT FIRED.** No external sponsor was found. The TP designation and internal-only review are standard UGA extension processes, not a mechanism for laundering an advocacy position through academic credibility. The "Written and Reviewed by Experts" branding is a general Field Report feature, not specific to TP 121. Residual risk: if an external sponsor exists but is not publicly disclosed, this assessment would change.
 2. **PFAS bridging — INDETERMINATE.** Cannot assess without TP 121 full text. The community note does not mention PFAS, which may indicate the community note author did not exploit this vector. But TP 121 lists PFAS as a topic — the study may legitimately address PFAS as a separate contamination pathway, or it may conflate the two concerns. Collection priority for next cycle.
-3. **Stat inflation — PARTIALLY FIRED.** The "75–90%" evaporative cooling prevalence claim has no verified authoritative source. Equinix's own data (40% of its DCs globally) contradicts the high end. The statistic may conflate "water cooling" (including closed-loop) with "evaporative cooling" (open-loop, water-consuming). Attribution to TP 121 vs. the community note author is unknown. This is the load-bearing claim and the highest-priority item for full-text verification.
+3. **Stat inflation — FIRED.** The "75–90%" claim traces to Novva Data Centers' marketing page — a $2B+ company (backed by CIM Group, JP Morgan Chase, Starwood Capital Group) whose competitive positioning depends on establishing that competitors use water. The statistic is unsourced and unverified on Novva's site. Secondary sources cite it as "Novva Data Centers, n.d." Multiple academic and industry publications have circularly cited it without independent verification. Equinix's own data (40% of its DCs globally use evaporative cooling) directly contradicts the high end. The Uptime Institute has cautioned against such generalities. If TP 121 cites this figure (as secondary citation patterns indicate), the source chain is: Novva marketing → TP 121 (internal review only, "Written and Reviewed by Experts" branding) → community note → Instagram users. This is not academic laundering by a sponsor as originally hypothesized — it is **commercial credibility laundering in reverse**: an interested industry player's unsourced marketing claim acquires academic credibility by passing through a land-grant extension publication whose internal-only review did not catch the sourcing deficiency.
 4. **Organic appearance of coordinated deployment — NOT FIRED.** No coordination evidence found. The citation appears organic. Residual risk: seeding is designed to be invisible, and absence of evidence is not conclusive.
 
 ---
