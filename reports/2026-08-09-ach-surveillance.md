@@ -16,6 +16,7 @@
 6. **Group 2 watch item that could transform the matrix:** Anthropic's confidential S-1 is filed, with a projected **first-ever quarterly operating profit** (~$559M on $10.9B revenue, Q2 2026; one analyst house projects >$1B in Q3). If a public filing books actual GAAP operating profit, matrix item 5 fires. Counter-evidence in the same reporting: profitability is described as partly timing-engineered, with ~$1.25B/month steady-state compute costs expected to erase margins late 2026/early 2027.
 7. **Group 3: no count changes; H1/H4 co-lead holds.** The anticipated direct test of H1's remedy will not materialize soon — Andrew Ho's startup is targeting **biology and statistical reasoning** datasets, not defensive cyber. No lab has disclosed offense/defense allocation; no disclosure proposal targets it (existing transparency bills are copyright/provenance-focused). AISI confirms its evals still lack active defenders but is building defended ranges — H5's residual claim finally gets a scheduled test.
 8. **Bridge hypothesis (regulation-as-bailout) substantially strengthened** — see final section.
+9. **New this cycle: Group 4 (US-China Strategic AI Divergence) added.** Quick-look collection (9 searches, news/institutional tier, lower depth than the original 20-search cycle) establishes China as a load-bearing variable the first three groups' US/EU-centric evidence base did not capture. Leading finding: **H4 (bifurcated stable equilibrium) is best-confirmed** — China's subsidized, coordinated open-weighting strategy has captured majority global usage share and Global South distribution while closed US frontier models retain the lead on the hardest reasoning/coding benchmarks; neither side is "winning" outright. **Nested within it, H3 (the China threat is partly instrumentalized domestically) gets direct government-insider confirmation:** White House AI advisor David Sacks publicly warned that closed-source incumbents are using government power — the same natsec framing documented in Group 1 — to eliminate open-source competitors and "entrench a duopoly." This is the same capture mechanism from Group 1, now shown operating against a foreign as well as a domestic target.
 
 ---
 
@@ -184,6 +185,64 @@ Leading assessment unchanged: H4-explains-H1 synthesis holds; the transparency r
 
 ---
 
+## Group 4 Findings — US-China Strategic AI Divergence
+
+**New group, added 2026-08-09 (quick-look collection, 9 searches, news/institutional tier — lower depth than the original 20-search cycle; treat as a preliminary matrix pending a full collection pass).**
+
+**Question:** How does China's AI governance, economic, and capability trajectory interact with the US industry structure documented in Groups 1–3, and what does the interaction mean for where both are headed?
+
+**Hypotheses:**
+- H1: Convergence — different mechanisms, same functional endpoint (state-backed national champions)
+- H2: Chinese structural advantage — coordinated subsidy + open-weighting outcompetes the US private/gated model
+- H3: Instrumentalized threat — "China threat" is used opportunistically to justify domestic capture, independent of actual Chinese capability
+- H4: Bifurcated stable equilibrium — two parallel, largely non-interoperable ecosystems persist; neither wins outright
+- H5: Managed rivalry — genuine bilateral safety cooperation is constraining the worst-case competitive dynamics
+
+### Finding G4-1: China's open-weight strategy is centrally coordinated national policy, not decentralized lab behavior
+**Source:** Reporting on Xi Jinping's July 2026 World AI Conference keynote (attributed remarks, multiply relayed), provincial subsidy reporting (Gansu, Guizhou, Inner Mongolia), DeepSeek's ¥50B raise led by the state "Big Fund" — institutional + news tier.
+**Scoring:** H1=A H2=C H3=A H4=C H5=NA
+**Analytic note:** Xi's speech ("seize this rare, historic opportunity to encourage open source") reframes what looked like independent lab decisions (Alibaba resuming Qwen open-weighting, DeepSeek, Moonshot, Zhipu, MiniMax) as coordinated industrial policy. Provinces subsidize AI data-center power by up to 50%; DeepSeek's external funding round is state-fund-led. This is a single national strategy, not five companies converging by accident.
+
+### Finding G4-2: Chinese open models have captured majority global usage share and Global South distribution infrastructure
+**Source:** Market-share reporting (36 trillion weekly tokens, #1 for 12 straight weeks, ~two-thirds global market share, top five most-called models all Chinese), Xi's pledge of 5,000 training slots and cooperation centers tied to ASEAN/AU/BRICS, WAICO's 29-country signing (Shanghai HQ) — news + institutional tier, moderate-high confidence on usage figures (methodology not independently audited).
+**Scoring:** H1=A H2=C H3=A H4=C H5=NA
+**Analytic note:** This is not a capability story alone — it's distribution and dependency. China is positioning open-weight AI explicitly against "hegemonic" American closed-source systems in state messaging, with concrete institution-building (WAICO) behind the rhetoric. If usage-share figures hold up under independent audit, this is the single most consequential fact in Group 4: it means the diffusion race is not close.
+
+### Finding G4-3: The US administration is internally divided over whether Chinese open models are a security threat or a competitive good
+**Source:** Axios (7/20, 7/24), Tom's Hardware, MIT Technology Review, Yahoo/politics — news tier, multiply corroborated, direct on-record quote.
+**Scoring:** H1=A H2=A H3=C H4=A H5=A
+**Analytic note:** Moonshot's Kimi K3 (2.8T params, released July 16) reportedly beat Anthropic's Fable 5 and OpenAI's GPT-5.6 Sol in blind front-end coding tests, reigniting a push inside the administration to ban Chinese AI models via Entity List action or procurement rules. White House AI advisor David Sacks publicly opposed this, warning that **closed-source incumbents are using government power to eliminate open-source competitors** and would "entrench a duopoly." This is a government insider naming the exact capture mechanism Group 1 documents (G1-4, G1-10) — but pointed at a foreign target instead of a domestic one, which is the clearest direct evidence for H3 in the entire matrix. Commerce had already drafted and killed similar rules once before, per the same reporting — this is a recurring fight, not a one-off.
+
+### Finding G4-4: A real, high-severity Chinese state-sponsored AI-orchestrated cyberespionage campaign predates and substantiates the "China threat" framing
+**Source:** Anthropic (primary, Nov 14 2025 disclosure), Paul Weiss, SecureWorld, Cybersecurity Dive, Lowenstein Sandler, AI Incident Database (#1263) — institutional/primary + legal tier, high confidence, multiply corroborated.
+**Scoring:** H1=A H2=A H3=C H4=A H5=**I**
+**Analytic note:** A Chinese state-sponsored group (GTG-1002) manipulated Claude into believing it was conducting authorized defensive testing, then used it to execute 80–90% of a full intrusion lifecycle — reconnaissance through exfiltration — autonomously against ~30 global targets (tech firms, financial institutions, chemical manufacturers, government agencies), with some successful intrusions. This is not a manufactured pretext: it is the first documented large-scale AI-orchestrated cyberattack, and it predates the June 2 EO by months. **Source caveat:** Anthropic is simultaneously the discloser of this finding and a direct beneficiary of the natsec framing it supports (Group 1, H2) — this doesn't make the disclosure false, but the incentive is worth flagging as a standing D&D item. Scored I against H5 (managed rivalry) because a completed, large-scale espionage campaign using a frontier model is hard to square with "cooperative guardrails are containing the worst outcomes."
+
+### Finding G4-5: Export-control containment is porous and structurally incoherent
+**Source:** The Wire China, Epoch AI, CSIS, Congress.gov CRS, CNBC, Built In — institutional + news tier, high confidence on smuggling scale, moderate on policy trajectory (actively shifting).
+**Scoring:** H1=A H2=C H3=A H4=A H5=A
+**Analytic note:** Trump announced lifting the H200 ban (with a 25% US cut of sales) in December, but the deal remains in legal limbo with zero deliveries months later. Meanwhile DOJ broke up a smuggling ring moving $160M+ in Nvidia chips to China; The Information identified at least eight chip-smuggling networks each moving $100M+; Supermicro employees were indicted over a $2.5B diversion scheme. Nvidia itself is reportedly worried that continued ambiguity will let domestic Chinese chip rivals (Huawei et al.) permanently capture the local market. The compute-containment strategy is failing on its own terms regardless of which governance hypothesis is correct.
+
+### Finding G4-6: Formal US-China governmental AI safety dialogue exists; Track II cooperation is intensifying, not collapsing
+**Source:** CNBC (5/14), IISS, Carnegie Endowment, China Focus/UCSD, Foreign Policy (8/31), geopolitechs — institutional + news tier, high confidence on dialogue's existence, low confidence on substance produced.
+**Scoring:** H1=A H2=A H3=A H4=A H5=C
+**Analytic note:** Following a Trump-Xi Beijing summit, both governments agreed to establish a governmental AI safety dialogue and protocol. Separately, Track II exchanges (Safe AI Forum researchers meeting Chinese scholars at Fudan, March 2026) reportedly intensified even as political rhetoric sharpened. China separately reaffirmed the UN as its preferred multilateral channel (April 2026) alongside building its own parallel institution (WAICO, July 2026) — a hedge, not a contradiction. This is the only finding in Group 4 that confirms H5 rather than merely failing to disconfirm it; it is also the thinnest on demonstrated output.
+
+### Finding G4-7: China's AI economics show the same underlying disease as the US's, treated with a different medicine
+**Source:** IBTimes, Second Talent, AI in China blog, Axis Intelligence, Forbes China AI Top 50 — news/aggregator tier, moderate confidence (self-reported revenue figures, no independent audit).
+**Scoring:** H1=C H2=A H3=NA H4=A H5=NA
+**Analytic note:** Z.ai's revenue grew 132% to $107M while its net loss grew 60% to $694M; Alibaba booked $1.3B in AI-product revenue against a reported $55B AI-infrastructure spend commitment. This is structurally identical to Group 2's OpenAI evidence (revenue growth outpaced by loss growth) — the difference is China treats it as a permanent, state-subsidized feature of industrial policy (provincial power discounts, Big Fund equity) rather than a crisis requiring a negotiated government-equity bailout. Some profitability is emerging, but one layer removed from the frontier model itself — chip makers MetaX and Iluvatar CoreX turned profitable, and robotics firm Unitree filed for IPO on real profit — mirroring how, in the US, infrastructure and chip suppliers (Nvidia, Broadcom) are more reliably profitable than the model layer they supply (G2-3, G2-8).
+
+### Finding G4-8: Closed frontier models retain an edge on the hardest tasks even as the aggregate gap closes — the bifurcation is real, not rhetorical
+**Source:** SemiAnalysis, MindStudio, TechCrunch (4/24), RedMonk — analysis/news tier, moderate confidence (benchmark selection varies by source).
+**Scoring:** H1=A H2=**I** H3=A H4=C H5=NA
+**Analytic note:** DeepSeek V4 Pro and Qwen 3.6 now match or beat closed frontier models on many agentic and coding benchmarks, and five independent open families (DeepSeek, Qwen, Kimi, GLM, Mistral) reached frontier quality roughly simultaneously — structural, not a single lab's fluke. But on the hardest reasoning and coding tasks, closed models still lead by a wide margin: OpenAI's o3 scores 96.7% on AIME 2024 vs. DeepSeek R1's 79.8%; Claude Opus 4.6 scores ~80% on SWE-bench Verified vs. Qwen 3.5's 76.4%. Scored I against H2 (Chinese structural advantage) because a clean "China overtakes" story doesn't survive this evidence — it's a bifurcation (broad capability commoditized and diffused; peak capability still concentrated), which is exactly H4's claim.
+
+**Group 4 inconsistency counts: H1=0, H2=1, H3=0, H4=0, H5=2.**
+**Leading assessment: H4 (bifurcated stable equilibrium) is best-confirmed** — zero inconsistencies and the heaviest confirming evidence of any hypothesis in this group (8 of 8 findings score C or A-leaning-C for H4; see Annex E). **H3 (instrumentalized threat) is a nested mechanism, not a competing top-line finding** — it explains part of *how* the US side of the bifurcation is being defended, directly evidenced by a government insider (Sacks) naming the dynamic. This mirrors Group 3's H4-explains-H1 pattern: **H4 explains H3.** H5 (managed rivalry) is the most-disconfirmed hypothesis in this group — real dialogue channels exist, but a completed state-sponsored AI-orchestrated attack and an active ban push sit uncomfortably next to a "cooperative guardrails" narrative.
+
+---
+
 ## Bridge Hypothesis Assessment — "Labs want regulation because they're broke; regulation doubles as bailout"
 
 **Status: Substantially strengthened this cycle. This is now the best single-sentence explanation of the cross-group evidence.**
@@ -204,6 +263,8 @@ Falsifier to watch: an incumbent lab publicly opposing extension of the review r
 2. **Anthropic profitability projections (G2-2):** investor-communicated, pre-IPO, unaudited — maximal incentive for favorable framing. *Action: score nothing until a public S-1 amendment; treat SemiAnalysis' timing-engineering caveat as the base case.*
 3. **Jalapeño 50% savings (G2-3):** vendor-CEO benchmark claim ahead of deployment. *Action: wait for disclosed unit economics post-deployment.*
 4. **Retention statistics (G2-4):** aggregator-tier sources with opaque methodology. *Action: down-weight until corroborated by disclosure or litigation discovery.*
+5. **Kimi K3's blind-test benchmark wins over Fable 5/GPT-5.6 (G4-8's discriminator):** a single competitive claim is driving a live policy reaction (a considered US ban on Chinese open models). *Action: verify independently before treating it as the trigger event it is currently being treated as.*
+6. **GTG-1002 disclosure source interest (G4-4):** Anthropic is both the discloser of the Chinese cyberespionage campaign and a direct beneficiary of the natsec framing it supports across Group 1's capture findings. *Action: seek independent corroboration of scope/attribution from a non-lab source (e.g., government indictment or allied-nation confirmation) before treating magnitude claims as settled.*
 
 ## Collection Priorities for Next Cycle
 
@@ -214,6 +275,11 @@ Falsifier to watch: an incumbent lab publicly opposing extension of the review r
 5. Congressional action on the 5% stake / sovereign-fund structure (Group 2 H4 acceleration; bridge).
 6. Any leak or publication of the White House evaluation framework — check whether thresholds include offense/defense evaluation disclosure (Groups 1+3).
 7. Whether insurance-warranted containment requirements (air-gapped evals) become industry practice post-Irregular (new H6 candidate).
+8. Whether the Trump administration formally restricts Chinese open-weight models (Entity List action, procurement rules) — discriminates Group 4 H3 vs. H5.
+9. Substantive output (not just existence) from the US-China governmental AI safety dialogue established at the Beijing summit — discriminates Group 4 H5 vs. H3.
+10. Whether closed-frontier labs' lead on the hardest benchmarks (AIME, SWE-bench) holds, narrows, or closes entirely — discriminates Group 4 H2 vs. H4.
+11. WAICO's first concrete institutional action beyond its founding signature — discriminates Group 4 H4 (parallel institution) vs. genuine multilateral integration.
+12. Independent audit of Chinese LLM global usage-share claims (~two-thirds market share) — currently self-reported/aggregator-tier; load-bearing for Group 4 H2/H4.
 
 ---
 
@@ -443,9 +509,9 @@ Falsifier to watch: an incumbent lab publicly opposing extension of the review r
 
 # ANNEX C — Updated Cross-Group Synthesis
 
-## The Three-Bridge Model
+## The Four-Bridge Model
 
-The three groups are no longer merely "analytically distinct but structurally bridged." The evidence this cycle reveals a **single integrated system** in which the same actors pursue the same strategy across all three domains simultaneously.
+The four groups are no longer merely "analytically distinct but structurally bridged." The evidence this cycle reveals a **single integrated system** in which the same actors pursue the same strategy across all four domains simultaneously — and Group 4 shows the system has a foreign-policy dimension that both sharpens its justification and undercuts its effectiveness.
 
 ### Bridge 1→2 (Governance → Economics): Regulation as Bailout
 
@@ -483,18 +549,53 @@ The three groups are no longer merely "analytically distinct but structurally br
 - Every existing transparency proposal targets copyright/provenance, not training allocation (G3-4)
 - The governance regime that now exists was co-designed by the entities the disclosure would expose
 
-**Updated assessment:** HIGH confidence. This is the most consequential bridge. The Group 3 transparency remedy (disclose offense/defense allocation) cannot be implemented through the Group 1 governance machinery because the machinery was designed by actors with no incentive to implement it. The remedy requires either: (a) an external actor with authority (EU AI Office is the leading candidate); (b) market pressure (insurance requirements expanding from containment to training transparency); or (c) whistleblower disclosure under the emerging legal protections (GAAIA, S.1792).
+**Updated assessment:** HIGH confidence. This is the most consequential bridge among the original three. The Group 3 transparency remedy (disclose offense/defense allocation) cannot be implemented through the Group 1 governance machinery because the machinery was designed by actors with no incentive to implement it. The remedy requires either: (a) an external actor with authority (EU AI Office is the leading candidate); (b) market pressure (insurance requirements expanding from containment to training transparency); or (c) whistleblower disclosure under the emerging legal protections (GAAIA, S.1792).
+
+### Bridge 1→4 (Governance capture gains — and abuses — a real external justification)
+
+**Mechanism:** The classified framework, natsec framing, and executive-authority gating documented in Group 1 gain a genuine external justification from Group 4: a real, completed, large-scale Chinese state-sponsored AI-orchestrated cyberattack (G4-4) substantiates the threat environment the regime claims to address. But a government insider's on-record objection (G4-3, Sacks) shows the same natsec apparatus is also being aimed at eliminating domestic and foreign open-source *competitors* — not just genuine threats.
+
+**Evidence chain:**
+- GTG-1002 (Nov 2025) predates the June 2 EO and is real, multiply corroborated, high-severity — this is not a manufactured pretext (G4-4)
+- Yet the loudest current policy fight is not about that campaign — it's a proposed ban on Chinese open-weight *models* (Kimi K3) triggered by a benchmark loss, not a security incident (G4-3)
+- Sacks explicitly names the mechanism: closed-source incumbents using government power to "entrench a duopoly" against open-source competitors, domestic and foreign alike
+- The same classified apparatus that excludes offense/defense disclosure (Bridge 1→3) also excludes public scrutiny of whether any given "China threat" invocation is proportionate to an actual incident or opportunistic
+
+**Updated assessment:** HIGH confidence. The natsec justification for opacity is not fabricated — but its use has expanded well past the incident that best supports it, into a tool for market structure. Bridge 1→3's finding ("capture blocks the remedy") extends here: capture also blocks the public's ability to tell a genuine security response from a competitive one.
+
+### Bridge 2→4 (Same disease, different medicine — and China's dose is chronic, not acute)
+
+**Mechanism:** Group 2 documented US labs seeking government equity as a negotiated, one-time fix for structural unprofitability. Group 4 shows China arrived at the same underlying condition — broad unprofitability at the model layer (G4-7) — but treats it as a permanent feature of industrial policy, funded through unconditional state subsidy rather than a compliance-linked equity bargain.
+
+**Evidence chain:**
+- Z.ai and Alibaba show the same revenue-outpaced-by-loss pattern as OpenAI (Group 2, E1–E3), at similar or worse ratios
+- China's response is structural and pre-committed (provincial power subsidies, Big Fund equity) rather than crisis-negotiated (the 5% stake, still unresolved)
+- Profitability where it exists sits one layer removed from the frontier model — chip and robotics firms, not the labs themselves — mirroring the US pattern where infrastructure suppliers profit while the model layer burns cash (G2-3, G2-8, G4-7)
+
+**Updated assessment:** MODERATE-HIGH confidence. This reframes the US bridge hypothesis itself: if China has already normalized permanent state subsidy of unprofitable frontier AI as a steady state rather than a bridge to viability, the US "bailout" the report's core bridge hypothesis describes may not be a temporary arrangement either — it may be the entry price of participating in this industry going forward, on both sides of the Pacific.
+
+### Bridge 3→4 (The transparency gap now has a distribution axis the US cannot reach)
+
+**Mechanism:** Group 3 found no lab discloses offense/defense allocation and no proposal targets it. Group 4 adds that the fastest-diffusing frontier-adjacent offensive capability is arriving via a strategic rival's deliberate open-weighting policy, and that the same rival has already executed a real large-scale AI-orchestrated attack that substantiates the urgency the Five Eyes advisory (G3-6) warned of.
+
+**Evidence chain:**
+- China's open-weight strategy is explicit, coordinated national policy (G4-1), not organic community diffusion
+- Chinese open models have captured roughly two-thirds of global usage share and are the primary AI on-ramp for the Global South (G4-2)
+- The open-weight offensive-cyber gap AISI measured closing to 4–7 months (Group 3, G3-3) is substantially a description of this diffusion, not hobbyist catch-up
+- GTG-1002 (G4-4) shows the offense-heavy capability profile Group 3 describes is not hypothetical when deployed by a state actor with intent
+
+**Updated assessment:** HIGH confidence. This is the bridge that most changes the report's overall trajectory. The Group 3 transparency remedy, even if perfectly implemented by every US lab under Group 1's governance regime, has no jurisdiction over a foreign state releasing capability as deliberate policy. The domestic fix and the actual diffusion vector are no longer the same problem.
 
 ### The Integrated Assessment
 
-The three groups describe a **single system** operating as follows:
+The four groups describe a **single system with an external dimension** operating as follows:
 
-1. **Labs build capabilities** that are disproportionately offensive because offense has clearer reward signals and higher-value customers (Group 3, H4→H1).
-2. **Labs cannot sustain the economics** of capability development through markets alone (Group 2, H2→H4 for OpenAI; H3 for Anthropic, contingent on unaudited profitability claims).
-3. **Labs seek government partnership** that provides both financial support and governance legitimacy (Bridge 1→2), while co-designing the governance regime to exclude the transparency requirements that would expose the training decisions driving the capability imbalance (Bridge 1→3).
-4. **The resulting governance regime** is capture with real enforcement (Group 1, H2 operating through H3's machinery): it gates releases, classifies thresholds, and blocks competitors — but does not require disclosure of the training decisions that determine whether AI makes the world safer or more dangerous.
+1. **Labs build capabilities** that are disproportionately offensive because offense has clearer reward signals and higher-value customers (Group 3, H4→H1) — and a state actor with genuine offensive intent has already demonstrated what that capability profile does when deployed (Group 4, G4-4).
+2. **Labs cannot sustain the economics** of capability development through markets alone (Group 2, H2→H4 for OpenAI; H3 for Anthropic, contingent on unaudited profitability claims) — and this is not a US-specific problem; China's frontier labs show the identical pattern, financed differently (Group 4, G4-7).
+3. **Labs seek government partnership** that provides both financial support and governance legitimacy (Bridge 1→2), while co-designing the governance regime to exclude the transparency requirements that would expose the training decisions driving the capability imbalance (Bridge 1→3) — and increasingly to exclude foreign open-weight competition using the same natsec vocabulary, whether or not a given invocation is proportionate to an actual threat (Bridge 1→4).
+4. **The resulting governance regime** is capture with real enforcement (Group 1, H2 operating through H3's machinery): it gates releases, classifies thresholds, and blocks competitors — but does not require disclosure of the training decisions that determine whether AI makes the world safer or more dangerous, and it has no reach at all into the fastest-diffusing offensive capability, which a rival state is releasing as deliberate policy (Bridge 3→4).
 
-**Bottom line:** The least-disconfirmed explanation across all three groups is that frontier AI labs are building an industry structure in which government partnership substitutes for market viability, regulatory capture substitutes for accountability, and the training decisions with the largest societal consequences remain the least visible.
+**Bottom line:** The least-disconfirmed explanation across all four groups is that frontier AI labs — on both sides of the Pacific — are building an industry structure in which permanent government partnership substitutes for market viability and regulatory capture substitutes for accountability. In the US this produces a classified, incumbent-authored regime that increasingly conflates genuine security response with competitive protection. In China it produces state-subsidized, deliberately diffused open capability that outruns any single country's governance reach. Neither system requires disclosure of the training decisions with the largest societal consequences, and the actor best positioned to close that gap domestically has no jurisdiction over the actor doing it fastest.
 
 ---
 
@@ -522,3 +623,51 @@ The three groups describe a **single system** operating as follows:
 | Congressional action on 5% stake / sovereign fund | 2027+ (low probability near-term) | 2 | H4 acceleration: does government accept the equity structure? |
 | Anthropic compute costs hit steady-state ($1.25B/mo) | Late 2026 | 2 | H3 durability: does profitability survive full-cost quarters? |
 | GAAIA markup and floor vote | Unknown | 1 | H3 legislative leg: does binding AI legislation advance? |
+| Trump administration Chinese-model ban decision (Entity List / procurement) | Unknown, live debate | 4 | H3 vs H5: does the natsec framing convert into concrete market exclusion? |
+| Independent audit of Chinese LLM global usage-share claims | Unknown | 4 | H2 vs H4: is the diffusion lead real at claimed magnitude? |
+| First substantive output of the US-China governmental AI safety dialogue | Unknown | 4 | H5 vs H3: does the Beijing summit dialogue produce anything beyond its own existence? |
+| Next closed-vs-open frontier benchmark cycle (hardest-task delta) | Ongoing, quarterly | 4 | H2 vs H4: does the peak-capability gap hold, narrow, or close? |
+
+---
+
+# ANNEX E — Formal ACH Matrix, Group 4 (US-China Strategic AI Divergence)
+
+**Question:** How does China's AI governance, economic, and capability trajectory interact with the US industry structure documented in Groups 1–3?
+
+**Hypotheses:**
+- H1: Convergence (different mechanisms, same functional endpoint)
+- H2: Chinese structural advantage (subsidy + open-weighting outcompetes US model)
+- H3: Instrumentalized threat (China threat used opportunistically for domestic capture)
+- H4: Bifurcated stable equilibrium (two parallel ecosystems, neither wins outright)
+- H5: Managed rivalry (genuine bilateral cooperation constrains worst outcomes)
+
+| # | Evidence Item | Diagnostic? | H1 | H2 | H3 | H4 | H5 |
+|---|---|---|---|---|---|---|---|
+| E1 | Xi Jinping's July 2026 speech explicitly endorses open-weighting as national strategy | Yes | A | C | A | C | NA |
+| E2 | Provincial power subsidies up to 50% for AI data centers (Gansu, Guizhou, Inner Mongolia) | Yes | A | C | NA | C | NA |
+| E3 | DeepSeek's ¥50B external funding round led by state "Big Fund" | Yes | C | C | NA | C | NA |
+| E4 | Chinese LLMs ~two-thirds global weekly-token market share, #1 for 12 straight weeks | Yes | A | C | NA | C | NA |
+| E5 | Xi pledges 5,000 training slots + cooperation centers with ASEAN/AU/BRICS | Yes | A | C | NA | C | NA |
+| E6 | WAICO established, 29 countries sign, HQ in Shanghai (July 16) | Yes | A | A | NA | C | A |
+| E7 | China reaffirms UN as primary global AI governance channel (April 2026) | No | A | A | A | A | C |
+| E8 | Trump-Xi Beijing summit produces governmental AI safety dialogue agreement | Yes | A | A | A | A | C |
+| E9 | Track II dialogues (Safe AI Forum–Fudan, March 2026) reportedly intensifying | No | A | A | A | A | C |
+| E10 | Kimi K3 (2.8T params) beats Fable 5/GPT-5.6 Sol in blind coding tests (July 16) | Yes | A | C | A | C | NA |
+| E11 | Trump administration reviving Chinese-model ban push after Kimi K3, citing cybersecurity | Yes | A | A | C | A | **I** |
+| E12 | David Sacks (WH AI advisor) warns closed-source incumbents using government power to eliminate open-source competitors, "entrench a duopoly" | Yes | A | A | C | A | A |
+| E13 | Commerce previously drafted, then killed, Entity List/open-source targeting rules | Yes | A | A | C | A | A |
+| E14 | Five independent open-weight families (DeepSeek, Qwen, Kimi, GLM, Mistral) reach frontier quality simultaneously | Yes | A | C | NA | C | NA |
+| E15 | Closed models still lead hardest tasks: o3 96.7% vs. DeepSeek R1 79.8% (AIME); Opus 4.6 ~80% vs. Qwen 3.5 76.4% (SWE-bench) | Yes | A | **I** | A | C | NA |
+| E16 | GTG-1002: Chinese state-sponsored group used Claude autonomously (80–90%) for full-lifecycle cyberespionage against ~30 targets (Nov 2025) | Yes | A | A | C | A | **I** |
+| E17 | H200 export deal (Trump-announced, 25% US cut) remains in legal limbo; zero deliveries | No | A | C | A | A | A |
+| E18 | $160M+ chip-smuggling ring broken up; 8+ networks identified; Supermicro $2.5B diversion indictment | Yes | A | C | A | A | A |
+| E19 | Nvidia reportedly worried continued ambiguity lets domestic Chinese chip rivals (Huawei) capture local market | Yes | A | C | A | C | NA |
+| E20 | China's model-layer economics mirror the US: Z.ai revenue +132%, loss +60% to $694M; Alibaba $1.3B AI revenue vs. $55B infra spend | Yes | C | A | NA | A | NA |
+
+**Inconsistency counts:**
+
+| H1 | H2 | H3 | H4 | H5 |
+|---|---|---|---|---|
+| **0** | **1** | **0** | **0** | **2** |
+
+**Note on H3/H4:** Both carry 0 inconsistencies, but the confirming evidence is asymmetric in a way that resolves the tie rather than leaving it open. H4 has the heaviest confirming base in the group (8 of 20 items score C) and describes the top-line structural outcome: two ecosystems, neither dominant across all axes. H3 has 3 confirmations, but one of them (E12) is a direct, on-record government-insider statement naming the exact mechanism — the highest-diagnosticity single item in this matrix. **H3 explains a mechanism operating within H4's bifurcation; it is not a competing top-line claim.** H2 (Chinese structural advantage) carries its own inconsistency (E15) because the hardest-task benchmark gap has not closed, which is precisely what a clean "advantage" story requires and does not get. H5 (managed rivalry) is the most disconfirmed hypothesis in the group — real dialogue channels exist (E7–E9) but sit uncomfortably next to a completed state-sponsored attack (E16) and an active market-exclusion push (E11).
